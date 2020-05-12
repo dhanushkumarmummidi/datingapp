@@ -1,0 +1,233 @@
+/* body for all pages with custom font */
+body {
+    margin: 0px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* header for all the pages */
+.home_header {
+    text-align: center;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    right:0px;
+    z-index: 2;
+}
+
+/* nav bar for all the pages */
+.home_nav {
+    background-color: #232F3E;
+    padding: 1vw;
+}
+
+/* nav bar elements for all the pages */
+.home_nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #EEEEEE;
+    padding: 0.5vw 1vw;
+}
+
+/* nav bar elements - hovering */
+.home_nav a:hover {
+    background-color: #EEEEEE;
+    color: #232F3E;
+}
+
+/* for welcome text in index page */
+#home_welcome {
+    text-align: center;
+    color: #232F3E;
+    background-color: #EEEEEE;
+    padding:25px;
+}
+
+/* header of welcome text in index page */
+#home_welcome h1 {
+    margin-top: 0px;
+    font-size: 2vw;
+    text-decoration: underline;
+}
+
+/* header of welcome text in index page */
+#home_welcome h2 {
+    margin-top: 0px;
+    font-size: 1.5vw;
+}
+
+/* paragraph of welcome text in index page */
+#home_welcome p {
+    width: 90%;
+    margin: auto;
+    font-size: 1vw;
+}
+
+/* to maintain width in index page */
+.home_watch_background {
+    width: 100%;
+}
+
+/* size of text on the image 1 in index page */
+.home_background_image_text h1 {
+    font-size: 2vw;
+}
+
+/* size of text on the image 3 in index page */
+.home_background_image_text h2 {
+    font-size: 1.5vw;
+}
+/* body of only catalogue page */
+#catalogue_body {
+    background-image: url(../background/b1.jpg);
+    background-attachment: fixed;
+}
+
+/* header text in catalogue */
+#catalogue h1 {
+    font-size: 2vw;
+    text-decoration: underline;
+    padding-top: 10px;
+    margin-top: 145px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+
+/* thumbnail images in catalogue page */
+.catalogue_thumbnail {
+    background-color: white;
+    border: 2px solid #232F3E;
+    float: left;
+    width: 20%;
+    margin: 15px;
+    padding: 20px;
+    text-decoration: none;
+    color: #232F3E;
+    min-height: 480px;
+}
+
+/* hovering over thumbnail images in catalogue page */
+.catalogue_thumbnail:hover {
+    background-color: grey;
+    color: white;
+}
+
+/* images in catalogue page */
+.catalogue_thumbnail img {
+    height: 250px;
+}
+
+/* description of products in catalogue page */
+.catalogue_thumbnail ul {
+    font-size: 18px;
+}
+
+/* footer for all the pages */
+.home_footer {
+    padding: 5px;
+    background-color: #232F3E;
+    color: #EEEEEE;
+    clear: left;
+}
+
+/* list in footer */
+.footer_group li {
+    list-style-type: none;
+    margin: 5px auto;
+}
+
+/* anchor tag in footer */
+.footer_group a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+/* on hovering over anchor tags in footer */
+.footer_group a:hover {
+    color: grey;
+}
+
+/* icons of contact for footer */
+.footer_group i {
+    margin: 5px auto;
+    width: 24px;
+}
+
+/* social media icons in footer */
+.home_social_media {
+    text-align: center;
+}
+
+/* social media icons in footer as anchor tags */
+.home_social_media a {
+    color: #EEEEEE;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* social media icons in footer hover effect */
+.home_social_media a:hover {
+    color: grey;
+}
+
+/* copy right text at the bottom of footer */
+#copy_right {
+    text-align: center;
+}
+#gallery_images {
+    margin: 145px auto 5px auto;
+    background-color: #EEEEEE;
+}
+
+/* header text in gallery page */
+#gallery_images h1 {
+    color: #232F3E;
+}
+
+/* all image tags in gallery page */
+#gallery_images img {
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 6px;
+    width: 19%;
+}
+
+
+#gallery_images img:hover {
+    border: 2px solid #232F3E;
+}
+
+
+
+#product_image {
+    padding-top: 5px;
+    background-color: #EEEEEE;
+    margin: 145px 0px 5px 0px;
+}
+
+
+#product_image img {
+    width: 25%;
+    margin-left: 100px;
+}
+
+
+#product_image p {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 50px;
+}
+
+
+#product_image p a {
+    line-height: 2;
+    display: block;
+    color: #232F3E;
+}
+
+#title {
+    font-size: 2vw;
+    text-decoration: underline;
+}
+
